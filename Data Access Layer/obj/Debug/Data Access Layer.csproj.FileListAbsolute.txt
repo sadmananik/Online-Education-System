@@ -1,0 +1,34 @@
+E:\Study Zone\This Semester\C#\Online Education System\Data Access Layer\bin\Debug\Data Access Layer.dll.config
+E:\Study Zone\This Semester\C#\Online Education System\Data Access Layer\bin\Debug\Data Access Layer.dll
+E:\Study Zone\This Semester\C#\Online Education System\Data Access Layer\bin\Debug\Data Access Layer.pdb
+E:\Study Zone\This Semester\C#\Online Education System\Data Access Layer\bin\Debug\Oracle.DataAccess.dll
+E:\Study Zone\This Semester\C#\Online Education System\Data Access Layer\obj\Debug\Data Access Layer.csprojResolveAssemblyReference.cache
+E:\Study Zone\This Semester\C#\Online Education System\Data Access Layer\obj\Debug\Data Access Layer.dll
+E:\Study Zone\This Semester\C#\Online Education System\Data Access Layer\obj\Debug\Data Access Layer.pdb
+E:\Study Zone\This Semester\C#\Runing Online Education System\Data Access Layer\bin\Debug\Data Access Layer.dll.config
+E:\Study Zone\This Semester\C#\Runing Online Education System\Data Access Layer\bin\Debug\Data Access Layer.dll
+E:\Study Zone\This Semester\C#\Runing Online Education System\Data Access Layer\bin\Debug\Data Access Layer.pdb
+E:\Study Zone\This Semester\C#\Runing Online Education System\Data Access Layer\bin\Debug\Oracle.DataAccess.dll
+E:\Study Zone\This Semester\C#\Runing Online Education System\Data Access Layer\obj\Debug\Data Access Layer.csprojResolveAssemblyReference.cache
+E:\Study Zone\This Semester\C#\Runing Online Education System\Data Access Layer\obj\Debug\Data Access Layer.dll
+E:\Study Zone\This Semester\C#\Runing Online Education System\Data Access Layer\obj\Debug\Data Access Layer.pdb
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Data Access Layer\bin\Debug\Data Access Layer.dll.config
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Data Access Layer\bin\Debug\Data Access Layer.dll
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Data Access Layer\bin\Debug\Data Access Layer.pdb
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Data Access Layer\bin\Debug\Oracle.DataAccess.dll
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Data Access Layer\obj\Debug\Data Access Layer.dll
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Data Access Layer\obj\Debug\Data Access Layer.pdb
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Data Access Layer\bin\Debug\Data Access Layer.dll.config
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Data Access Layer\bin\Debug\Data Access Layer.dll
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Data Access Layer\bin\Debug\Data Access Layer.pdb
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Data Access Layer\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Data Access Layer\obj\Debug\Data Access Layer.dll
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Data Access Layer\obj\Debug\Data Access Layer.pdb
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Data Access Layer\obj\Debug\Data Access Layer.csprojResolveAssemblyReference.cache
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Data Access Layer\bin\Debug\Data Access Layer.dll.config
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Data Access Layer\bin\Debug\Data Access Layer.dll
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Data Access Layer\bin\Debug\Data Access Layer.pdb
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Data Access Layer\bin\Debug\Oracle.DataAccess.dll
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Data Access Layer\obj\Debug\Data Access Layer.csprojResolveAssemblyReference.cache
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Data Access Layer\obj\Debug\Data Access Layer.dll
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Data Access Layer\obj\Debug\Data Access Layer.pdb

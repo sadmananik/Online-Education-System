@@ -1,0 +1,373 @@
+=====Online Education System=====
+-------------ADBMS PROJECT-----------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------Creating a NEW USER to the System-----
+
+create user AdbmsProject identified by project;
+grant connect, resource, unlimited tablespace to AdbmsProject;
+ALTER USER AdbmsProject DEFAULT TABLESPACE USERS;
+ALTER USER AdbmsProject TEMPORARY TABLESPACE TEMP;
+_____________________________________________________________________________________________________________________________________
+Now logint to AdbmsProject and create the following table and insert values
+_____________________________________________________________________________________________________________________________________
+
+---------------creating table ADMINACCOUNTS--------------------
+
+CREATE TABLE ADMINACCOUNTS
+  (AccID NUMBER(11) CONSTRAINT PK_ADMINACCOUNTS PRIMARY KEY,
+  Name varchar2(300),
+  UserName varchar2(300),
+  Gender varchar2(11),
+  DOB varchar2(11),
+  Maritial_Status varchar2(11),
+  Email varchar2(300),
+  BloodGroup varchar2(11),
+  Photo varchar2(300),
+  Phone varchar2(15),
+  Address varchar2(300),
+  JoinDate varchar2(11),
+  Validity varchar2(11),
+  CONFIRM_BY_ACCID NUMBER(11));
+
+-------------Inserting data into ADMINACCOUNTS---------------
+
+INSERT INTO ADMINACCOUNTS (AccID, Name, UserName ,Gender, DOB, Maritial_Status, Email, BloodGroup, Photo, Phone, Address, JoinDate, Validity, CONFIRM_BY_ACCID) VALUES
+(1001, 'SADMAN ANIK', 'sadmanik', 'Male', '24-04-1995', 'Single', 'Sadmananik1', 'B+', 'c://downloa', '01521210000', 'Dhaka', '13-11-2017', 'Invalid', 1001);
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------creating table ADVISORACCOUNTS--------------------
+
+CREATE TABLE ADVISORACCOUNTS
+  (AccID NUMBER(11) CONSTRAINT PK_ADVISORACCOUNTS PRIMARY KEY,
+  Name varchar2(300),
+  UserName varchar2(300),
+  Gender varchar2(11),
+  DOB varchar2(11),
+  Maritial_Status varchar2(11),
+  Email varchar2(300),
+  BloodGroup varchar2(11),
+  Photo varchar2(300),
+  Phone varchar2(15),
+  Address varchar2(300),
+  JoinDate varchar2(11),
+  Validity varchar2(11),
+  CONFIRM_BY_ACCID NUMBER(11),
+  CURRENTBATCHID NUMBER(11));
+
+-------------Inserting data into ADVISORACCOUNTS---------------
+
+INSERT INTO ADVISORACCOUNTS(AccID, Name, UserName, Gender, DOB, Maritial_Status, Email, BloodGroup, Photo, Phone, Address, JoinDate, Validity, CONFIRM_BY_ACCID, CURRENTBATCHID) VALUES
+(1002, 'Shafiul Shaon1', 'shaon', 'Male', '24-04-1995', 'Single', 'shafiulalom', 'B+', 'c:://', '01521210000', 'Dhaka', '13-11-2017', 'Invalid', 1002,1);
+
+INSERT INTO ADVISORACCOUNTS(AccID, Name, UserName, Gender, DOB, Maritial_Status, Email, BloodGroup, Photo, Phone, Address, JoinDate, Validity, CONFIRM_BY_ACCID,CURRENTBATCHID) VALUES
+(1006, 'Shafiul Shaon2', 'Shaon2', 'Male', '24-04-1995', 'Married', 'Shaon@gmail', 'B+', 'c://', '0152121001', 'Chittagong', '13-11-2017', 'Invalid', 1004,2);
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------creating table EXAMINEEACCOUNTS--------------------
+
+CREATE TABLE EXAMINEEACCOUNTS
+  (AccID NUMBER(11) CONSTRAINT PK_EXAMINEEACCOUNTS PRIMARY KEY,
+  Name varchar2(300),
+  UserName varchar2(300),
+  Gender varchar2(11),
+  DOB varchar2(11),
+  Maritial_Status varchar2(11),
+  Email varchar2(300),
+  BloodGroup varchar2(11),
+  Photo varchar2(300),
+  Phone varchar2(15),
+  Address varchar2(300),
+  JoinDate varchar2(11),
+  Validity varchar2(11),
+  CONFIRM_BY_ACCID NUMBER(11),
+  CURRENTBATCHID NUMBER(11));
+
+-------------Inserting data into EXAMINEEACCOUNTS---------------
+
+INSERT INTO EXAMINEEACCOUNTS(AccID, Name, UserName, Gender, DOB, Maritial_Status, Email, BloodGroup, Photo, Phone, Address, JoinDate, Validity, CONFIRM_BY_ACCID,CURRENTBATCHID) VALUES
+(1003, 'Shaif Mashu', 'usersishu', 'Male', '24-04-1995', 'Single', 'Shaif@gmail', 'B+', 'c://', '01521210000', 'Dhaka', '13-11-2017', 'Invalid', 1003,1);
+
+INSERT INTO EXAMINEEACCOUNTS(AccID, Name, UserName, Gender, DOB, Maritial_Status, Email, BloodGroup, Photo, Phone, Address, JoinDate, Validity, CONFIRM_BY_ACCID,CURRENTBATCHID) VALUES
+(1005, 'milon', 'usermilon', 'Male', '24-04-1995', 'Married', 'milon@gmail', 'B+', 'c://', '0152121001', 'Dhaka', '13-11-2017', 'Invalid', 1005,2);
+
+INSERT INTO EXAMINEEACCOUNTS(AccID, Name, UserName, Gender, DOB, Maritial_Status, Email, BloodGroup, Photo, Phone, Address, JoinDate, Validity, CONFIRM_BY_ACCID,CURRENTBATCHID) VALUES
+(1004, 'Antu', 'userantu', 'Male', '24-04-1995', 'Single', 'antu@gmail', 'B+', 'c://', '0152121001', 'Dhaka', '13-11-2017', 'Invalid', 1006,2);
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------creating table batch--------------------
+CREATE TABLE batch 
+  ( BatchID NUMBER(11) CONSTRAINT PK_batch PRIMARY KEY,
+  BatchName varchar2(300),
+  CourseID NUMBER(11),
+  AdvisorID NUMBER(11),
+  FeeTK DOUBLE PRECISION,
+  P_Session varchar2(300),
+  C_Rating DOUBLE PRECISION,
+  C_Rating_Counter number(11),
+  Status varchar2(300)
+
+);
+
+-------------Inserting data into batch---------------
+
+INSERT INTO batch (BatchID, BatchName, CourseID, AdvisorID, FeeTK, P_Session, C_RATING, C_RATING_COUNTER, STATUS) VALUES
+(1, 'F1', 101, 1002, 1500, 'Fall17-18', 4.5, 3, 'Close');
+
+INSERT INTO batch (BatchID, BatchName, CourseID, AdvisorID, FeeTK, P_Session, C_RATING,C_RATING_COUNTER, STATUS) VALUES
+(2, 'F2', 101, 1002, 2500, 'Fall17-18', 5, 1, 'Open');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------creating table COURSEREGISTRATION--------------------
+
+CREATE TABLE COURSEREGISTRATION
+  ( REGNO NUMBER(11) CONSTRAINT PK_REGNO PRIMARY KEY,
+  EXAMINEEACCID NUMBER(11),
+  BATCHID NUMBER(11),
+  VALIDITY varchar2(11)
+);
+
+
+
+-------------Inserting data into COURSEREGISTRATION---------------
+
+INSERT INTO COURSEREGISTRATION (REGNO, EXAMINEEACCID, BATCHID, VALIDITY) VALUES
+(1, 103, 2, 'Valid');
+
+INSERT INTO COURSEREGISTRATION (REGNO, EXAMINEEACCID, BATCHID, VALIDITY) VALUES
+(2, 104, 1, 'Valid');
+
+INSERT INTO COURSEREGISTRATION (REGNO, EXAMINEEACCID, BATCHID, VALIDITY) VALUES
+(3, 105, 1, 'Valid');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------creating table course--------------------
+
+CREATE TABLE course (
+  CourseID number(11) CONSTRAINT PK_course PRIMARY KEY,
+  CourseName varchar2(300),
+  C_Program varchar2(300)
+);
+
+-------------Inserting data into course---------------
+
+INSERT INTO course (CourseID, CourseName, C_Program) VALUES
+(101, 'C#', 'Computer Sc');
+
+INSERT INTO course (CourseID, CourseName, C_Program) VALUES
+(102, 'ADBMS', 'Computer Sc');
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------creating table logininfo--------------------
+
+CREATE TABLE logininfo (
+  AccID number(11) CONSTRAINT PK_logininfo PRIMARY KEY NOT NULL,
+  UserName varchar2(300) NOT NULL,
+  PIN Number(11) NOT NULL,
+  Status varchar2(11) NOT NULL,
+  SecretQueAns varchar2(300) NOT NULL
+);
+
+-------------Inserting data into logininfo---------------
+
+INSERT INTO logininfo (AccID, UserName , PIN, Status, SecretQueAns) VALUES
+(1001, 'sadmanik', 1234, 'Admin', 'YO');
+
+INSERT INTO logininfo (AccID, UserName , PIN, Status, SecretQueAns) VALUES
+(1002, 'shaon1', 1234, 'Advisor', 'LEL');
+
+INSERT INTO logininfo (AccID, UserName , PIN, Status, SecretQueAns) VALUES
+(1003, 'shaon2', 1234, 'Examiner', 'Nerd');
+
+INSERT INTO logininfo (AccID,UserName , PIN, Status, SecretQueAns) VALUES
+(1006, 'usersishu', 1234, 'Advisor', 'yo');
+
+INSERT INTO logininfo (AccID,UserName , PIN, Status, SecretQueAns) VALUES
+(1005, 'userantu',1234, 'Examiner', 'Nerd');
+
+INSERT INTO logininfo (AccID,UserName , PIN, Status, SecretQueAns) VALUES
+(1004, 'usermilon',1234, 'Examiner', 'Nerd');
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------creating table loginrecord--------------------
+
+CREATE TABLE loginrecord (
+  LoginSeqID number(11) CONSTRAINT PK_loginrecord PRIMARY KEY NOT NULL,
+  AccID number(11) NOT NULL,
+  U_Date varchar2(11) NOT NULL,
+  Time varchar2(11) NOT NULL,
+  CourseID number(11) NOT NULL,
+  BatchID number(11) NOT NULL,
+  P_Status varchar2(500) NOT NULL
+)
+
+-------------Inserting data into loginrecord---------------
+
+INSERT INTO loginrecord (LoginSeqID, AccID, Date, Time, TimeSpend, CourseID, BatchID, Status) VALUES
+(1, 1001, '13-11-2017', '02:06:23', '00:35:12', 0, 0, 'Admin');
+
+INSERT INTO loginrecord (LoginSeqID, AccID, U_Date, Time, TimeSpend, CourseID, BatchID, P_Status) VALUES
+(2, 1002, '13-11-2017', '02:06:23', '00:40:12', 101, 0, 'Advisor');
+
+INSERT INTO loginrecord (LoginSeqID, AccID, U_Date, Time, TimeSpend, CourseID, BatchID, P_Status) VALUES
+(3, 1003, '13-11-2017', '02:06:23', '00:36:12', 102, 5, 'Examiner');
+
+INSERT INTO loginrecord (LoginSeqID, AccID, U_Date, Time, TimeSpend, CourseID, BatchID, P_Status) VALUES
+(4, 1004, '13-11-2017', '02:06:23', '00:37:12', 101, 2, 'Examiner');
+
+INSERT INTO loginrecord (LoginSeqID, AccID, U_Date, Time, TimeSpend, CourseID, BatchID, P_Status) VALUES
+(5, 1005, '13-11-2017', '02:06:23', '00:38:12', 102, 3, 'Examiner');
+
+INSERT INTO loginrecord (LoginSeqID, AccID, U_Date, Time, TimeSpend, CourseID, BatchID, P_Status) VALUES
+(6, 1006, '13-11-2017', '02:06:23', '00:39:12', 102, 0, 'Advisor');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------creating table quebank--------------------
+
+CREATE TABLE quebank (
+  QID number(11) CONSTRAINT PK_quebank PRIMARY KEY  NOT NULL,
+  Que varchar2(500) NOT NULL,
+  TopicID number(11) NOT NULL,
+  Q_Type varchar2(11) NOT NULL,
+  OptionA varchar2(500) NOT NULL,
+  OptionB varchar2(500) NOT NULL,
+  OptionC varchar2(500) NOT NULL,
+  OptionD varchar2(500) NOT NULL,
+  CorrectOption varchar2(500) NOT NULL
+);
+
+
+-------------Inserting data into quebank---------------
+
+INSERT INTO quebank (QID, Que, TopicID, Q_Type, OptionA, OptionB, OptionC, OptionD, CorrectOption) 
+VALUES (1, 'Any Questio', 1011, 'MCQ', 'aida?', 'naki aida?', 'A and B ?', 'None', 'OptionD');
+
+INSERT INTO quebank (QID, Que, TopicID, Q_Type, OptionA, OptionB, OptionC, OptionD, CorrectOption) 
+VALUES (2, 'Any Questio 2', 1012, 'MCQ', 'aida?', 'naki aida?', 'A and B ?', 'None', 'OptionA');
+
+INSERT INTO quebank (QID, Que, TopicID, Q_Type, OptionA, OptionB, OptionC, OptionD, CorrectOption) 
+VALUES (3, 'Any Questio 3', 1013, 'MCQ', 'aida?', 'naki aida?', 'A and B ?', 'None', 'OptionB');
+
+INSERT INTO quebank (QID, Que, TopicID, Q_Type, OptionA, OptionB, OptionC, OptionD, CorrectOption) 
+VALUES (4, 'Any Questio 4', 1014, 'MCQ', 'aida?', 'naki aida?', 'A and B ?', 'None', 'OptionC');
+
+INSERT INTO quebank (QID, Que, TopicID, Q_Type, OptionA, OptionB, OptionC, OptionD, CorrectOption) 
+VALUES (5, 'Any Questio 5', 1015, 'MCQ', 'aida?', 'naki aida?', 'A and B ?', 'None', 'OptionA');
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------creating table SetQuestion--------------------
+
+CREATE TABLE SetQuestion(
+  QID number(11)  NOT NULL,
+  Batch_ID number(11) NOT NULL,
+  Topic_ID number(11) NOT NULL,
+  Course_ID number(11) NOT NULL
+);
+
+-------------Inserting data into SetQuestion---------------
+INSERT INTO quebank (QID, Batch_ID, Topic_ID, Course_ID) 
+VALUES (1, 5, 1011,101);
+
+INSERT INTO quebank (QID, Batch_ID, Topic_ID, Course_ID) 
+VALUES (4, 4, 1012,102);
+
+INSERT INTO quebank (QID, Batch_ID, Topic_ID, Course_ID) 
+VALUES (2, 3, 1013,101);
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------creating table resultrecord---------------
+
+CREATE TABLE resultrecord (
+  RecID number(11) CONSTRAINT PK_resultrecord PRIMARY KEY NOT NULL,
+  AccID number(11) NOT NULL,
+  Grade varchar2(11) NOT NULL,
+  BatchID number(11) NOT NULL,
+  P_Comment varchar2(11),
+  FinishDate varchar2(11) NOT NULL,
+  Mark DOUBLE PRECISION
+)
+
+-------------Inserting data into resultrecord---------------
+
+INSERT INTO resultrecord (RecID, AccID, Grade, BatchID, P_Comment, FinishDate, Mark) VALUES
+(1, 1003, 'A+', 1, 'Good', '13-12-2017',90.5);
+
+INSERT INTO resultrecord (RecID, AccID, Grade, BatchID, P_Comment, FinishDate, Mark) VALUES
+(2, 1004, 'A-', 1, 'Good', '13-12-2017',90.5);
+
+INSERT INTO resultrecord (RecID, AccID, Grade, BatchID, P_Comment, FinishDate, Mark) VALUES
+(3, 1005, 'A', 1, 'Good', '13-12-2017',90.5);
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------creating table topic---------------
+
+CREATE TABLE topic (
+  TopicID number(11) CONSTRAINT PK_topic PRIMARY KEY NOT NULL,
+  TopicName varchar2(11) NOT NULL,
+  Type varchar2(11) NOT NULL,
+  CourseID number(11) NOT NULL,
+  Notes varchar2(500) NOT NULL,
+  Reference varchar2(500) NOT NULL
+)
+
+
+-------------Inserting data into topic---------------
+
+INSERT INTO topic (TopicID, TopicName, Type, CourseID, AdvisorAccID, Notes, Reference) VALUES
+(1011, 'Built-In-Ty', 'Basic', 101, 'not uploaded yet','go to');
+
+INSERT INTO topic (TopicID, TopicName, Type, CourseID, AdvisorAccID, Notes, Reference) VALUES
+(1012, 'Built-In-A', 'Basic', 101, 'not uploaded yet','go here');
+
+INSERT INTO topic (TopicID, TopicName, Type, CourseID, AdvisorAccID, Notes, Reference) VALUES
+(1013, 'Built-In-B', 'Basic', 101, 'not uploaded yet','go there');
+
+INSERT INTO topic (TopicID, TopicName, Type, CourseID, AdvisorAccID, Notes, Reference) VALUES
+(1014, 'Built-In-C', 'Basic', 102, 'not uploaded yet','go');
+
+INSERT INTO topic (TopicID, TopicName, Type, CourseID, AdvisorAccID, Notes, Reference) VALUES
+(1015, 'Built-In-D', 'Basic', 102, 'not uploaded yet','go');
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------creating table transaction---------------
+
+CREATE TABLE  "TRANSACTION" 
+   (	"TRANSACTIONID" NUMBER(11,0) NOT NULL ENABLE, 
+	"ACCID" NUMBER(11,0) NOT NULL ENABLE, 
+	"U_RECEIVE" FLOAT(126), 
+	"U_PAY" FLOAT(126), 
+	"U_STATUS" NUMBER(11,0) NOT NULL ENABLE, 
+	"TRANSDATE" varchar2(15) NOT NULL ENABLE, 
+	"ADMINACCID" NUMBER(11,0) NOT NULL ENABLE, 
+	"BATCHID" NUMBER(11,0) NOT NULL ENABLE, 
+	 CONSTRAINT "PK_TRANSACTION" PRIMARY KEY ("TRANSACTIONID") ENABLE
+   )
+
+-------------Inserting data into transaction---------------
+INSERT INTO TRANSACTION(TransactionID, AccID, U_Receive, U_Pay, U_Status, TransDate, AdminAccID, BATCHID) VALUES
+(1, 1003, 1500, 0, '0', 13, 1001,1);
+
+INSERT INTO TRANSACTION(TransactionID, AccID, U_Receive, U_Pay, U_Status, TransDate, AdminAccID, BATCHID) VALUES
+(2, 1004, 1500, 0, '0', 13, 1001,2);
+
+INSERT INTO TRANSACTION(TransactionID, AccID, U_Receive, U_Pay, U_Status, TransDate, AdminAccID, BATCHID) VALUES
+(3, 1005, 1500, 0, '0', 13, 1001,2);
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+========================================creating table Notice========================================================
+CREATE TABLE NOTICE( 
+  NoticeID NUMBER(11) CONSTRAINT PK_NOTICE PRIMARY KEY,
+  Notice varchar2(500),
+  NoticeDate varchar2(300),
+  Status varchar2(11),
+  AccID NUMBER(11),
+  Time varchar2(11)
+ );

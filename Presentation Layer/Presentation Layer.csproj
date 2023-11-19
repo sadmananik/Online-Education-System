@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0DDB10FA-44F6-4ECB-9EC3-44CE3599BDC0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentation_Layer</RootNamespace>
+    <AssemblyName>Presentation Layer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminAccessLoginRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAccessLoginRecords.designer.cs">
+      <DependentUpon>AdminAccessLoginRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddAdmin.designer.cs">
+      <DependentUpon>AdminAddAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddBatch.Designer.cs">
+      <DependentUpon>AdminAddBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBillManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBillManagement.Designer.cs">
+      <DependentUpon>AdminBillManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAccessAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAccessAccounts.designer.cs">
+      <DependentUpon>AdminAccessAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminConfirmAdvisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminConfirmAdvisor.designer.cs">
+      <DependentUpon>AdminConfirmAdvisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminConfirmExaminee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminConfirmExaminee.Designer.cs">
+      <DependentUpon>AdminConfirmExaminee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEditProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminEditProfile.designer.cs">
+      <DependentUpon>AdminEditProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome.Designer.cs">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminNotice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminNotice.Designer.cs">
+      <DependentUpon>AdminNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvisorFinancialsDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisorFinancialsDetails.Designer.cs">
+      <DependentUpon>AdvisorFinancialsDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvisorChangeCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisorChangeCourse.Designer.cs">
+      <DependentUpon>AdvisorChangeCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvisorCheckResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisorCheckResult.Designer.cs">
+      <DependentUpon>AdvisorCheckResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvisorCourseDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisorCourseDetails.Designer.cs">
+      <DependentUpon>AdvisorCourseDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvisorEditNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisorEditNote.Designer.cs">
+      <DependentUpon>AdvisorEditNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvisorEditProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisorEditProfile.designer.cs">
+      <DependentUpon>AdvisorEditProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvisorEditQuestionBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisorEditQuestionBank.Designer.cs">
+      <DependentUpon>AdvisorEditQuestionBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvisorHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisorHome.Designer.cs">
+      <DependentUpon>AdvisorHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvisorNotice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisorNotice.Designer.cs">
+      <DependentUpon>AdvisorNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvisorSetQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvisorSetQuestion.Designer.cs">
+      <DependentUpon>AdvisorSetQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePIN.designer.cs">
+      <DependentUpon>ChangePIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineeFinancialsDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamineeFinancialsDetails.Designer.cs">
+      <DependentUpon>ExamineeFinancialsDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineeCheckResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamineeCheckResult.Designer.cs">
+      <DependentUpon>ExamineeCheckResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineeEditProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamineeEditProfile.designer.cs">
+      <DependentUpon>ExamineeEditProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineeExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamineeExam.designer.cs">
+      <DependentUpon>ExamineeExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineeNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamineeNote.designer.cs">
+      <DependentUpon>ExamineeNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineeNotice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamineeNotice.Designer.cs">
+      <DependentUpon>ExamineeNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineeRatingBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamineeRatingBatch.designer.cs">
+      <DependentUpon>ExamineeRatingBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistration.designer.cs">
+      <DependentUpon>FormRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineeHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamineeHome.designer.cs">
+      <DependentUpon>ExamineeHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExamineeBatchRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamineeBatchRegistration.designer.cs">
+      <DependentUpon>ExamineeBatchRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPIN.designer.cs">
+      <DependentUpon>ForgotPIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAddCourse.Designer.cs">
+      <DependentUpon>AdminAddCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StartWindows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartWindows.Designer.cs">
+      <DependentUpon>StartWindows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TermsAndConditions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TermsAndConditions.Designer.cs">
+      <DependentUpon>TermsAndConditions.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminAccessAccounts.resx">
+      <DependentUpon>AdminAccessAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAccessLoginRecords.resx">
+      <DependentUpon>AdminAccessLoginRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAddAdmin.resx">
+      <DependentUpon>AdminAddAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAddBatch.resx">
+      <DependentUpon>AdminAddBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBillManagement.resx">
+      <DependentUpon>AdminBillManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminConfirmAdvisor.resx">
+      <DependentUpon>AdminConfirmAdvisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminConfirmExaminee.resx">
+      <DependentUpon>AdminConfirmExaminee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminEditProfile.resx">
+      <DependentUpon>AdminEditProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHome.resx">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminNotice.resx">
+      <DependentUpon>AdminNotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvisorFinancialsDetails.resx">
+      <DependentUpon>AdvisorFinancialsDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvisorChangeCourse.resx">
+      <DependentUpon>AdvisorChangeCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvisorCheckResult.resx">
+      <DependentUpon>AdvisorCheckResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvisorCourseDetails.resx">
+      <DependentUpon>AdvisorCourseDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvisorEditNote.resx">
+      <DependentUpon>AdvisorEditNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvisorEditProfile.resx">
+      <DependentUpon>AdvisorEditProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvisorEditQuestionBank.resx">
+      <DependentUpon>AdvisorEditQuestionBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvisorHome.resx">
+      <DependentUpon>AdvisorHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvisorNotice.resx">
+      <DependentUpon>AdvisorNotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvisorSetQuestion.resx">
+      <DependentUpon>AdvisorSetQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePIN.resx">
+      <DependentUpon>ChangePIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamineeFinancialsDetails.resx">
+      <DependentUpon>ExamineeFinancialsDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamineeCheckResult.resx">
+      <DependentUpon>ExamineeCheckResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamineeEditProfile.resx">
+      <DependentUpon>ExamineeEditProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamineeExam.resx">
+      <DependentUpon>ExamineeExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamineeNote.resx">
+      <DependentUpon>ExamineeNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamineeNotice.resx">
+      <DependentUpon>ExamineeNotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamineeRatingBatch.resx">
+      <DependentUpon>ExamineeRatingBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistration.resx">
+      <DependentUpon>FormRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamineeHome.resx">
+      <DependentUpon>ExamineeHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExamineeBatchRegistration.resx">
+      <DependentUpon>ExamineeBatchRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPIN.resx">
+      <DependentUpon>ForgotPIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAddCourse.resx">
+      <DependentUpon>AdminAddCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StartWindows.resx">
+      <DependentUpon>StartWindows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TermsAndConditions.resx">
+      <DependentUpon>TermsAndConditions.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business Logic Layer\Business Logic Layer.csproj">
+      <Project>{4d5015f5-0199-476a-a135-01d029710dc6}</Project>
+      <Name>Business Logic Layer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25382998_1254045344697629_87866947_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12-education-presentation-background_vectorized.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12-education-presentation-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo__vectorized.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Last_vectorized.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

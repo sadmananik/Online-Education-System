@@ -1,0 +1,283 @@
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\bin\Debug\Presentation Layer.exe
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\bin\Debug\Presentation Layer.pdb
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.dll
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.pdb
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.exe
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.pdb
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.LoginPage.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\bin\Debug\Data Access Layer.dll
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\bin\Debug\Oracle.DataAccess.dll
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\bin\Debug\Data Access Layer.pdb
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminHome.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorHome.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditQuestionBank.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminEditProfile.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditProfile.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeEditProfile.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeNote.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAccessAccounts.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.FormRegistration.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.StartWindows.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.TermsAndConditions.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeHome.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation Layer.exe
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation Layer.pdb
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\bin\Debug\Presentation Layer.exe
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\bin\Debug\Presentation Layer.pdb
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.dll
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\bin\Debug\Data Access Layer.dll
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\bin\Debug\Oracle.DataAccess.dll
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.pdb
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\bin\Debug\Data Access Layer.pdb
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAccessAccounts.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminEditProfile.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminHome.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditProfile.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditQuestionBank.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorHome.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ChangePassword.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeEditProfile.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeNote.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeRatingCourse.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.FormRegistration.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeHome.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.Forgot_Password.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.LoginPage.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.StartWindows.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.TermsAndConditions.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddBatch.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddCourse.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeBatchRegistration.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmAdvisor.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmExaminee.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditNote.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorSetQuestion.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminBillManagement.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorBillingDetails.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCheckResult.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCourseDetails.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeBillingDetails.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddAdmin.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeCheckResult.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeExam.resources
+E:\Study Zone\This Semester\C#\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorChangeCourse.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation Layer.exe
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation Layer.pdb
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAccessAccounts.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddAdmin.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddBatch.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminBillManagement.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmAdvisor.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmExaminee.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminEditProfile.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminHome.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorBillingDetails.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorChangeCourse.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCheckResult.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCourseDetails.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditNote.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditProfile.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditQuestionBank.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorHome.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorSetQuestion.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ChangePassword.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeBillingDetails.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeCheckResult.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeEditProfile.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeExam.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeNote.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeRatingCourse.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.FormRegistration.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeHome.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeBatchRegistration.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.Forgot_Password.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.LoginPage.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddCourse.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.StartWindows.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.TermsAndConditions.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\bin\Debug\Presentation Layer.exe
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\bin\Debug\Presentation Layer.pdb
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.dll
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\bin\Debug\Data Access Layer.dll
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\bin\Debug\Oracle.DataAccess.dll
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.pdb
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\bin\Debug\Data Access Layer.pdb
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminNotice.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorNotice.resources
+D:\documents\8th Semester\C#\Project\Runing Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeNotice.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation Layer.exe
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation Layer.pdb
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\bin\Debug\Presentation Layer.exe
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\bin\Debug\Presentation Layer.pdb
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.dll
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\bin\Debug\Data Access Layer.dll
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.pdb
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\bin\Debug\Data Access Layer.pdb
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAccessAccounts.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddAdmin.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddBatch.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminBillManagement.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmAdvisor.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmExaminee.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminEditProfile.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminHome.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminNotice.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorBillingDetails.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorChangeCourse.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCheckResult.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCourseDetails.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditNote.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditProfile.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditQuestionBank.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorHome.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorNotice.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorSetQuestion.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeBillingDetails.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeCheckResult.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeEditProfile.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeExam.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeNote.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeNotice.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.FormRegistration.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeHome.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeBatchRegistration.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.LoginPage.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddCourse.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.StartWindows.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.TermsAndConditions.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAccessLoginRecords.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ChangePIN.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ForgotPIN.resources
+C:\Users\Asus\Downloads\Compressed\New Online Education System\New Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeRatingBatch.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAccessLoginRecords.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddAdmin.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddBatch.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminBillManagement.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmAdvisor.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmExaminee.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminNotice.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorChangeCourse.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCheckResult.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCourseDetails.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditNote.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorNotice.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorSetQuestion.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ChangePIN.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeCheckResult.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeExam.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeNotice.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeRatingBatch.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeBatchRegistration.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ForgotPIN.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddCourse.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.exe
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.pdb
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAccessAccounts.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAccessLoginRecords.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddAdmin.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddBatch.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminBillManagement.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmAdvisor.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmExaminee.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminEditProfile.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminHome.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminNotice.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorBillingDetails.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorChangeCourse.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCheckResult.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCourseDetails.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditNote.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditProfile.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditQuestionBank.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorHome.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorNotice.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorSetQuestion.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ChangePIN.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeBillingDetails.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeCheckResult.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeEditProfile.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeExam.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeNote.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeNotice.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeRatingBatch.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.FormRegistration.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeHome.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeBatchRegistration.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ForgotPIN.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.LoginPage.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddCourse.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.StartWindows.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.TermsAndConditions.resources
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\bin\Debug\Presentation Layer.exe
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\bin\Debug\Presentation Layer.pdb
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.dll
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\bin\Debug\Data Access Layer.dll
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\bin\Debug\Oracle.DataAccess.dll
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.pdb
+D:\documents\8th Semester\C#\Project\Final Online Education System\Online Education System\Presentation Layer\bin\Debug\Data Access Layer.pdb
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.exe
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.pdb
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\bin\Debug\Presentation Layer.exe
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\bin\Debug\Presentation Layer.pdb
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.dll
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\bin\Debug\Data Access Layer.dll
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\bin\Debug\Oracle.DataAccess.dll
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\bin\Debug\Business Logic Layer.pdb
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\bin\Debug\Data Access Layer.pdb
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAccessAccounts.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAccessLoginRecords.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddAdmin.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddBatch.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminBillManagement.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmAdvisor.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminConfirmExaminee.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminEditProfile.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminHome.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminNotice.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorBillingDetails.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorChangeCourse.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCheckResult.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorCourseDetails.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditNote.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditProfile.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorEditQuestionBank.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorHome.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorNotice.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorSetQuestion.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ChangePIN.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeBillingDetails.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeCheckResult.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeEditProfile.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeExam.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeNote.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeNotice.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeRatingBatch.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.FormRegistration.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeHome.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeBatchRegistration.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ForgotPIN.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.LoginPage.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdminAddCourse.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.StartWindows.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.TermsAndConditions.resources
+E:\Study Zone\This Semester\C#\C# Online Education System\C# Online Education System\Online Education System\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.AdvisorFinancialsDetails.resources
+E:\Study Zone\This Semester\C#\Online Education System\Presentation Layer\obj\Debug\Presentation_Layer.ExamineeFinancialsDetails.resources

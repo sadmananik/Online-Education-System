@@ -1,0 +1,186 @@
+//Sequence 1  ->select LOGINSEQID_seq.nextval from dual;
+CREATE SEQUENCE LOGINSEQID_seq
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1
+  CACHE 20;
+
+//Sequence 2  -> select RECID_SEQnextval from dual;
+
+CREATE SEQUENCE RECID_SEQ
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1
+  CACHE 20;
+
+
+//Views
+
+1.(GetInvalidAdvisorAccounts)-> SELECT * from GetInvalidAdvisorAccounts
+
+create or replace view GetInvalidAdvisorAccounts
+as
+SELECT * FROM ADVISORACCOUNTS WHERE VALIDITY='Invalid' ORDER BY ACCID ASC
+
+
+2. (GetAdvisorTopicName)-> Select TOPICNAME from GetAdvisorTopicName where ACCID = 1002
+create or replace view GetAdvisorTopicName
+as
+select distinct t.TOPICNAME, a.ACCID from COURSE c, BATCH b, TOPIC t, ADVISORACCOUNTS a where a.CURRENTBATCHID=b.BATCHID and b.COURSEID=c.COURSEID and t.COURSEID=c.COURSEID
+
+
+3.(GetSelectedQuestion)-> Select QID, QUE from GetSelectedQuestion where ACCID = 1002
+ccreate or replace view GetSelectedQuestion
+as
+select s.QID, q.QUE, a.ACCID from QUEBANK q, SETQUESTION s, ADVISORACCOUNTS a, BATCH b where s.ADDEDBYID=a.ACCID and a.VALIDITY='Valid' and a.CURRENTBATCHID=b.BATCHID and q.QID=s.QID
+
+4.(GetAdvisorCourseDetails) -> select COURSEID, COURSENAME, C_PROGRAM from GetAdvisorCourseDetails where ACCID = 1002
+create or replace view GetAdvisorCourseDetails
+as
+select c.COURSEID, c.COURSENAME, c.C_PROGRAM, a.ACCID from COURSE c , ADVISORACCOUNTS a, BATCH b where b.BATCHID=a.CURRENTBATCHID and b.COURSEID=c.COURSEID
+
+
+5. (GetReg()) -> SELECT * from GetReg
+create or replace view GetReg
+as
+select e.ACCID, e.NAME from COURSEREGISTRATION c, EXAMINEEACCOUNTS e where c.EXAMINEEACCID=e.ACCID and c.VALIDITY='Invalid'
+
+
+6.(GetOpenCourseName) -> SELECT * from GetOpenCourseName
+create or replace view GetOpenCourseName
+as
+select c.COURSENAME from COURSE c, BATCH b where c.COURSEID=b.COURSEID and b.STATUS='Open'
+
+
+
+//Function1
+create or replace FUNCTION GetLastLogRecID 
+RETURN LOGINRECORD.LOGINSEQID%TYPE IS 
+lastNum LOGINRECORD.LOGINSEQID%TYPE; 
+BEGIN 
+SELECT LOGINSEQID+1 INTO lastNum 
+FROM LOGINRECORD 
+WHERE ROWNUM <= 1 order by LOGINSEQID desc; 
+RETURN(lastNum); 
+END;
+
+//func 111
+create or replace FUNCTION GetLastCourseID 
+RETURN LOGINRECORD.LOGINSEQID%TYPE IS 
+lastNum LOGINRECORD.LOGINSEQID%TYPE; 
+BEGIN 
+SELECT COURSEID+1 INTO lastNum From course WHERE ROWNUM <= 1 order by COURSEID desc;
+RETURN(lastNum); 
+END;
+
+
+//Function2
+create or replace FUNCTION GetLastOpenCourseBatchID(cname COURSE.COURSENAME%TYPE) 
+RETURN BATCH.BATCHID%TYPE IS 
+lastNum BATCH.BATCHID%TYPE; 
+BEGIN 
+select BATCHID INTO lastNum 
+from BATCH WHERE ROWNUM <= 1 and STATUS='Open' and COURSEID=(select COURSEID from COURSE where COURSENAME=cname) order by BATCHID desc; 
+RETURN(lastNum); 
+END;
+
+//function3
+create or replace FUNCTION GetLastQID 
+RETURN QUEBANK.QID%TYPE IS 
+lastNum QUEBANK.QID%TYPE; 
+BEGIN 
+SELECT QID+1 INTO lastNum FROM QUEBANK WHERE ROWNUM <= 1 order by QID desc; 
+RETURN(lastNum); 
+END;
+
+//function4
+create or replace FUNCTION GetLastTID 
+RETURN TRANSACTION.TRANSACTIONID%TYPE IS 
+lastNum TRANSACTION.TRANSACTIONID%TYPE; 
+BEGIN SELECT TRANSACTIONID+1 INTO lastNum FROM TRANSACTION WHERE ROWNUM <= 1 order by TRANSACTIONID desc; 
+RETURN(lastNum); 
+END;
+
+//procedure1
+create or replace PROCEDURE GetBatchFee(bID IN BATCH.BATCHID%TYPE, fee OUT BATCH.FEETK%TYPE) IS 
+BEGIN 
+SELECT FEETK INTO fee FROM BATCH WHERE BATCHID=bID; 
+END;
+
+//procedure2
+create or replace PROCEDURE GetOldPIN(ID IN LOGININFO.ACCID%TYPE, pin OUT LOGININFO.PIN%TYPE) IS 
+BEGIN 
+SELECT PIN INTO pin FROM LOGININFO WHERE ACCID=ID; 
+END;
+
+
+//Trigger 1
+
+Create or Replace Trigger CheckDoublePay
+BEFORE INSERT ON TRANSACTION
+For each row
+Declare
+Cursor C12 IS
+Select * From TRANSACTION;
+r number(3);
+
+Begin
+For r IN C12 LOOP
+If(:new.AccID=r.AccID and :new.BATCHID=r.BATCHID)
+Then
+raise_application_error(-20205,'Already Done!');
+End If;
+End Loop;
+End;
+
+//Trigger 2
+Create or Replace Trigger CheckDoubleQue
+BEFORE INSERT ON SETQUESTION
+For each row
+Declare
+Cursor C12 IS
+Select * From SETQUESTION;
+r number(3);
+
+Begin
+For r IN C12 LOOP
+If(:new.qID=r.QID)
+Then
+raise_application_error(-20205,'Have Same Question Already. Try Another Question!');
+End If;
+End Loop;
+End;
+
+//trigger 3
+
+Create or Replace Trigger CheckCourseName
+BEFORE INSERT OR UPDATE OF COURSENAME ON COURSE
+For each row
+Declare
+Cursor C12 IS
+Select * From COURSE;
+r number(3);
+
+Begin
+For r IN C12 LOOP
+If(:new.COURSENAME =r.COURSENAME)
+Then
+raise_application_error(-20205,'Already Have Same Course Name. Try Another Course!');
+End If;
+End Loop;
+End;
+
+
+//trigger 4
+Create or Replace Trigger CheckTopicCount
+BEFORE INSERT OR UPDATE OF TOPICID ON QUEBANK
+For each row
+Declare
+tcount number(3);
+Begin
+Select Count(*) INTO tcount FROM QUEBANK Where TOPICID=:new.TOPICID;
+IF(tcount > 5)
+Then
+raise_application_error(-20205,'You Can Not Set Same Topic Question More Than 5 Times.');
+END IF;
+End;
